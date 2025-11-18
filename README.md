@@ -50,12 +50,11 @@ Using Ansible for Nexus deployment brings a number of advantages:
    cd Ansible
 
 2. Configure the inventory
-   In the inventory folder, define the target hosts for your Nexus deployment. For example, add your Nexus server under a group like [nexus].
+   In the inventory file, define the target hosts for your Nexus deployment. For example, add your Nexus server under a group like [nexus].
 
 3. Set variables
 
    Use group or host vars files to define Nexus-related variables (e.g., nexus_version, nexus_install_dir, admin password).
-
    Use Ansible Vault to encrypt sensitive variables, such as nexus_admin_password.
 
 4. Run the playbook
