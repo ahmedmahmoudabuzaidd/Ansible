@@ -4,7 +4,8 @@
 
 ## What I Did in This Project
 
-In this repository, I used **Ansible** to automate the deployment and configuration of **Sonatype Nexus Repository Manager**. The main tasks I implemented include:
+In this repository, I used **Ansible** to automate the deployment and configuration of **Sonatype Nexus Repository Manager**. 
+The main tasks I implemented include:
 
 - Provisioning a Nexus server on a target host(s) defined in the `inventory` folder.  
 - Installing the required system dependencies (e.g. Java) to run Nexus.  
