@@ -61,9 +61,9 @@ Using Ansible for Nexus deployment brings a number of advantages:
 4. **Run the playbook
    ansible-playbook -i inventory/web.yml playbooks/sonatype-nexus.yml --ask-become-pass
 
-'''
+'''bash
 
-Benefits Gained in My Project
+## Benefits Gained in My Project
 
 Automated Setup: Reduced the time to provision a Nexus instance from manual installation (~30–60 minutes) to a few minutes.
 
