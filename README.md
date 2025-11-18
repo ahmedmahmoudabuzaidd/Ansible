@@ -8,7 +8,7 @@ In this repository, I used **Ansible** to automate the deployment and configurat
 
 The main tasks I implemented include:
 
-- Provisioning a Nexus server on a target host(s) defined in the `inventory` folder.  
+- Provisioning a Nexus server on a target host(s) defined in the `inventory` file .  
 - Installing the required system dependencies (e.g. Java) to run Nexus.  
 - Downloading and installing Nexus OSS (or a specific Nexus version) on the target machine.  
 - Setting up Nexus as a service: configuring systemd (or equivalent) so Nexus runs automatically and reliably.  
